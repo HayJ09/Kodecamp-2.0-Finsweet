@@ -59,9 +59,6 @@
     position: absolute;
     padding: 50px 20px;
 }
-.cta h1 {
-
-}
 .cta p {
     font-size: 12px;
     width: 320px;
@@ -100,9 +97,6 @@
     width: 97%;
     height: 40vh;
     padding-bottom: 20px;
-}
-.diagnostic h3 {
-
 }
 .diagnostic p {
     font-size: 13px;
