@@ -1022,7 +1022,7 @@ p span.days{
   }
 }
 
-@media (max-width: 769px) and (min-width: 500px) {
+@media (max-width: 769px) and (min-width: 65g0px) {
   .main-header {
     width: 100%;
     padding: 10px 40px;
