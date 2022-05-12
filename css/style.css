@@ -571,7 +571,7 @@ p span.days{
   .main-header {
     align-items: flex-start;
     flex-direction: column;
-    padding: 10px 20px;
+    padding: 10px 15px;
     width: 100%;
     margin: 0;
   }
