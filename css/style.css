@@ -48,16 +48,14 @@
   Justify-content: center;
   align-content: center;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   padding: 50px 220px;
   
 }
 .Content-1 {
   Font-Family: Sans-serif;
   width: 65%;
-  height: 70%;
   padding-top: 30px;
-
 }
 .Content-1 h1 {
   Font-size: 42px;
@@ -97,7 +95,6 @@ p span.days{
 }
 .Content-2 {
   width: 70%;
-  height: 80vh;
   margin-right: 60px;
 }
 .Content-2 img{
@@ -106,7 +103,7 @@ p span.days{
 }
 .Offers {
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   display: flex;
   justify-content: space-between;
   margin: 0;
@@ -193,7 +190,7 @@ p span.days{
 }
 .Offer2 {
   width: 100%;
-  height: 80vh;
+  min-height: 100vh;
   display: flex;
 }
 .container-1{
@@ -207,7 +204,7 @@ p span.days{
   font-family: sans-serif;
   font-size: 34px;
   font-weight: 700;
-  width: 340px;
+  width: 100%;
 }
 .count-box p {
   padding: 20px 0;
@@ -216,7 +213,7 @@ p span.days{
   
 }
 .container-2 {
-  height: 50vh; 
+  
   padding: 100px 130px;
 }
 .container-2 .cont{
@@ -239,7 +236,7 @@ p span.days{
 .Service-Page {
   background-color: #E2E6E9;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   margin-top: 80px;
 }
 .Framer {
@@ -260,9 +257,8 @@ p span.days{
   font-size: 34px;
   font-weight: bold; 
   padding: 10px 0 40px 0;
-  width: 40%;
+  width: 100%;
   height: 40%;
-  margin:0 30%;
 }
 .box-2 {
   width: 100%;
@@ -328,7 +324,7 @@ p span.days{
 }
 .CTA {
   width: 100%;
-  height: 50vh;
+  min-height: 50vh;
 }
 .background {
   display: flex;
@@ -341,7 +337,7 @@ p span.days{
 .float {
   position: absolute;
   background: #FF6433;
-  width:30%;
+  width:40%;
   height: 50vh;
   margin: 0 70px 0 230px;
 }
@@ -365,7 +361,7 @@ p span.days{
   justify-content: space-around;
   align-items: center;
   padding: 0 170px;
-  height: 15vh;
+  min-height: 15vh;
   background: #E2E6E9;
 }
 .Number h1 {
@@ -378,7 +374,7 @@ p span.days{
   font-size: small;
 }
 .Brands {
-  height: 75vh;
+  min-height: 75vh;
   background: #FAFAFA;
   padding: 60px 0 40px;
 }
@@ -403,7 +399,7 @@ p span.days{
   height: 110px;
 }
 .Testimonial {
-  height: 100vh;
+  min-height: 100vh;
   padding: 70px 0 40px;
   background: #F2F2F2;;
 }
@@ -417,7 +413,7 @@ p span.days{
   justify-content:space-between;
   align-items: center;
   margin: 50px 250px 0;
-  height: 208px;
+  height: 60vh;
 }
 .review img {
   width: 360px;
@@ -451,7 +447,7 @@ p span.days{
 }
 .FAQ {
   width: 100%;
-  height: 110vh;
+  min-height: 100vh;
   background: #E2E6E9;
 }
 .heading-1 {
@@ -463,12 +459,19 @@ p span.days{
 .Questions {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .Que {
   margin: 0 350px 5px;
   padding: 20px 20px;
   background: white;
-  
+  width: 40%;
+}
+.que {
+  margin: 0 350px 5px;
+  padding: 20px 20px;
+  background: white;
+  width: 40%;
 }
 .toggle {
   display: flex;
@@ -500,12 +503,12 @@ p span.days{
   display: flex;
 }
 .left-side {
-  margin-left: 290px;
+  margin-left: 200px;
   margin-right: 40px;
 }
 .header-1 h1 {
   padding: 50px 0 50px 0;
-  width: 290px;
+  width: 100%;
   font-size: 32px;
 }
 .Social-media {
@@ -590,8 +593,9 @@ p span.days{
     margin: 5px 0;
   }
   .right-section ul li a {
-    font-size: 16px;
+    font-size: 14px;
     margin: 5px 0;
+    width: 100%;
   }
   .road-assistance {
     display: none;
@@ -601,24 +605,21 @@ p span.days{
     flex-direction: column-reverse;
     padding: 0 20px 10px;
     min-height: 90vh;
-    height: 0;
     width: 100%;
   }
   .Content-1 {
     width: 100%;
-    height: 30vh;
     padding-top: 0;
   }
   .Content-2 {
     width: 100%;
-    height: 50vh;
   }
   .Content-1 h1 {
     width: 100%;
     font-size: 28px;
     line-height: 32px;
     text-align: left;
-    padding-top: 10px;
+    padding: 0 0 10px;
   }
   .Content-1 button {
     font-size: 8px;
@@ -628,15 +629,16 @@ p span.days{
     margin: 2px 0;
   }
   .Content-1 img {
-    width: 32px;
+    width: 11%;
     height: 32px;
   }
   .info {
     display: flex;
     padding-top: 10px;
+    width: 100%;
   }
   .info p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 18px;
   }
   .Content-2 img {
@@ -728,13 +730,11 @@ p span.days{
     width: 100%;
     min-height: 100vh;
     padding: 20px 15px;
-    height: 60vh;
     flex-direction: column;
   }
   .container-1 {
     width: 100%;
     margin: 0;
-    height: 35vh;
   }
   .count-box h1 {
     font-size: 24px;
@@ -771,7 +771,6 @@ p span.days{
     padding-top: 0;
   }
   .box-1 h1 {
-    margin: 10px;
     padding: 0;
     width: 100%;
     font-size: 16px;
@@ -807,22 +806,22 @@ p span.days{
     height: 16px;
   }
   .serv p {
-    font-size: 16px;
+    font-size: 12px;
     padding-top: 5px;
     text-align: center;
     width: 100%;
   }
   .serv-wheel {
-    padding: 5px;
+    padding: 20px;
     width: 40%;
     height: 80px;
   }
   .serv-wheel img {
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
   }
   .serv-wheel p {
-    font-size: 16px;
+    font-size: 12px;
     padding-top: 5px;
     text-align: center;
     width: 100%;
@@ -832,7 +831,7 @@ p span.days{
   }
   .CTA {
     width: 100%;
-    height: 20vh;
+    min-height: 20vh;
   }
   .background {
     width: 100%;
@@ -849,11 +848,12 @@ p span.days{
   .float {
     margin: 0 70px 0 90px;
     height: 20vh;
-    width: 180px;
+    width: 40%;
   }
   .float h1 {
     padding: 20px 10px 5px;
     font-size: 10px;
+    width: 100%;
   }
   .float input {
     font-size: 8px;
@@ -863,7 +863,7 @@ p span.days{
     margin: 5px 10px;
   }
   .experience {
-    min-height: 30vh;
+    min-height: 40vh;
     flex-wrap: wrap;
     width: 100%;
     padding: 0 20px;
@@ -881,7 +881,7 @@ p span.days{
   .Brands {
     width: 100%;
     padding: 20px 10px;
-    min-height: 100vh;
+    min-height: 50vh;
   }
   .head h1 {
     font-size: 24px;
@@ -900,9 +900,11 @@ p span.days{
   }
   .logo1 {
     width: 30%;
+    height: 60px;
   }
   .logo1 img {
     width: 100%;
+    height: 60px;
   }
   .head h1 {
     font-size: 16px;
@@ -925,6 +927,7 @@ p span.days{
     justify-content: space-between;
     flex-direction: column;
     margin: 0;
+    min-height: 60vh;
   }
   .review {
     height: 150px;
@@ -940,8 +943,8 @@ p span.days{
   }
   .FAQ {
     width: 100%;
-    height: 75vh;
-    padding: 20px;
+    min-height: 100vh;
+    padding: 60px 20px;
   }
   .heading-1 {
     font-size: 12px;
@@ -949,16 +952,17 @@ p span.days{
   }
   .Questions {
     height: 60vh;
+    align-items: center;
   }
   .Que {
     height: 65px;
     width: 70%;
-    margin: 5px 60px 0;
+    margin: 5px 40px 0;
     padding: 10px;
   }
   .Que p {
-    font-size: 8px;
-    width: 220px;
+    font-size: 6px;
+    width: 100%;
   }
   .toggle h6 {
     font-size: 12px;
@@ -969,22 +973,26 @@ p span.days{
   }
   .Footer-top {
     width: 100%;
-    height: 50vh;
+    min-height: 40vh;
+    flex-direction: column;
   }
   .left-side {
-    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    margin: 0;
   }
   .right-side {
-    padding: 0;
-    margin: 20px 10px;
+    padding: 20px;
+    margin: 0;
   }
   .header-1 h1 {
-    padding: 10px;
+    padding: 0 0 5px;
     font-size: 16px;
-    width: 200px;
+    width: 100%;
   }
   .Social-media {
-    margin-left: 10px;
+    margin-left: 0;
+    width: 100%;
   }
   .icons img {
     width: 10px;
@@ -992,8 +1000,8 @@ p span.days{
     margin-right: 7px;
   }
   .right-side {
-    width: 50%;
-    padding: 10px 0;
+    width: 100%;
+    padding: 0 20px;
   }
   .Infor p {
     font-size: 8px;
@@ -1046,7 +1054,7 @@ p span.days{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    min-height:70vh;
     padding: 10px 40px;
     width: 100%;
   }
@@ -1098,7 +1106,7 @@ p span.days{
   .Offers {
     padding: 50px 40px;
     width: 100%;
-    height: 80vh;
+    min-height: 80vh;
   }
   .Frame-1 {
     margin: 0;
@@ -1175,7 +1183,7 @@ p span.days{
   }
   .Offer2 {
   width: 100%;
-  height: 80vh;
+  min-height: 80vh;
   padding: 50px 40px;
   }
   .container-1 {
@@ -1222,7 +1230,7 @@ p span.days{
   }
   .Service-Page {
   width: 100%;
-  height: 90vh;
+  min-height: 70vh;
   margin-top: 0;
   padding: 35px 20px;
   }
@@ -1240,13 +1248,13 @@ p span.days{
   }
   .box-2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    height: 60vh;
+    min-height: 30vh;
   }
   .line {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .serv {
     padding: 15px;
@@ -1281,7 +1289,7 @@ p span.days{
   }
   .CTA {
     width: 100%;
-    height: 40vh;
+    min-height: 30vh;
   }
   .background {
     justify-content: space-between;
@@ -1321,7 +1329,7 @@ p span.days{
   .experience {
     width: 100%;
     padding: 0 70px;
-    height: 20vh;
+    min-height: 20vh;
   }
   .Number {
     padding-right: 10px;
@@ -1337,7 +1345,7 @@ p span.days{
   .Brands {
   width: 100%;
   padding: 40px 20px 20px;
-  height: 60vh;
+  min-height: 60vh;
   }
   .Logos {
     width: 80%;
@@ -1353,7 +1361,7 @@ p span.days{
   }
   .Testimonial {
     width: 100%;
-    height: 60vh;
+    min-height: 60vh;
     padding: 20px;
   }
   .customer h1 {
@@ -1385,7 +1393,7 @@ p span.days{
   }
   .FAQ {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     padding: 20px;
   }
   .heading-1 {
@@ -1393,8 +1401,13 @@ p span.days{
     padding: 0 0 15px;
   }
   .Que {
-  margin: 0 120px 5px;
+  margin: 0 0 5px;
+  width: 60%;
   }
+  .que {
+    margin: 0 0 5px;
+    width: 60%;
+    }
   .Footer-top {
   height: 60vh;
   width: 100%;
